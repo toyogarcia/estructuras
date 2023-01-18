@@ -12,17 +12,17 @@ public class AppCadenas {
         System.out.println("Posicion del caracter l en la variable saludo: "+saludo.indexOf("l"));
         String saludo2 = "Buongiorno bafanculo";
         if (saludo == saludo2) {
-            System.out.println("Objetos iguales");
+            System.out.println("Referencias iguales");
         }
         else {
-            System.out.println("Objetos distintos");
+            System.out.println("Referencias distintos");
         }
 
         if (saludo.equals(saludo2)) {
-            System.out.println("cadenas iguales");
+            System.out.println("Textos iguales");
         }
         else {
-            System.out.println("cadenas distintas");
+            System.out.println("Textos distintos");
         }
 
     }

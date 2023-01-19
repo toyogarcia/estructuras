@@ -19,8 +19,7 @@ public class Perro {
     @Override
     public String toString() {
         return "Perro{" +
-                "raza='" + raza +
+                "raza='" + raza + '\'' +
                 '}';
     }
-
 }
